@@ -86,3 +86,53 @@ p {
 .email-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 770px) {
+    h1{
+        font-size: 40px;
+    }
+    h2, h3{
+        font-size: 15px;
+    }
+    h2, p{
+        display: none;
+    }
+    .primary-link {
+        border-radius: 4px;
+        padding: 2px 2px;
+        text-decoration: none;
+        text-transform: capitalize;
+        background: var(--primary-color);
+        box-shadow: var(--box-shadow);
+        color: white;
+    }
+    .primary-link {
+        border-radius: 4px;
+        padding: 10px 5px;
+        text-decoration: none;
+        text-transform: capitalize;
+        background: var(--primary-color);
+        box-shadow: var(--box-shadow);
+        color: white;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    ...
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    ...
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    ...
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    ...
+} */
